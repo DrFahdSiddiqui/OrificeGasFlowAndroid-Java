@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Orifice Gas Flow</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_app">
+    <![CDATA[
+    <html>
+    <head></head>
+    <body style="text-align:left;color:#c8ffff;background-color:#002d2d;">
+    <font size="4">
+
+
+
+
+
+<p><span style="text-decoration: underline;"><strong>About This App<br /></strong></span>This app computes the gas flow rate&nbsp;using the orifice plate energy equation. The app follows the standard procedure described in ISO 5167-2. The orifice discharge coefficient is calculated using the&nbsp;Reader-Harris/Gallagher (1998) equation.</p>
+<p>This app&nbsp;requires the pipe diameter (D), orifice diameter (d), upstream pressure (P1), the differential pressure accross the orifice (P1-P2), downstream temperature (T), gas specific gravity and gas isentropic expansion factor/heat capacity ratio (k=Cp/Cv). The user has the option of specifying the units for each, hence the values can have any mix of units.</p>
+<p>The tap location can be selected from the ISO 5167-2 specified: Flange Taps, Corner Taps, D and D/2 Taps and an option to specify manual tap locations. The Flange Taps standard measures the pressure and differential at 1inch intervals from the orifice plate on either side. The Corner Taps are located just upstream and downstream of the orifice plate. The D and D/2 Taps are located at a distance of pipe diameter on the upstream side and half pipe diameter distance on the downstream side of the orifice plate. Even though the user can manually specify these distances as well it is not recommended as it is not covered by the ISO 5167-2 standard. In general large deviations from the standard values will produce a larger uncertainty.</p>
+<p>The correlations for computing Z-factor and viscosity can be changed by selecting SETTINGS from the MENU. It is also possible to use the Square Root Circular Flow Recorder Chart readings by first converting them. The app can convert the chart readings by clicking the "USE CHART" button. The readings can be converted as well as subsituted for pressure, differential pressure and temperature for onward calculation of gas flow rate.</p>
+<p>The results of calculation are displayed in SI/Filed units. This app computes the volumetric gas flow rate at standard conditions of 60F and 14.7 psia for field units and 0C and 1 atmosphere for SI units. The volumetric gas rate at pipe upstream conditions, mass flow rate and velocities throug the pipe and orifice are&nbsp;also computed. The intermediate calculations are also displayed for reference, such as Reynolds number, orifice coefficient, gas Z-factor and gas viscosity. More detailed intermediate values are displayed in the text only report. The units can be switched between field and SI units by clicking the "Change Units" button.</p>
+<p>Finally the&nbsp;report of the calculation is also available in copyable tab delimited text form to paste into a mobile word processor. The "Email Report" button launches the default android email app with the report in the text of the body.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>About Fahd Siddiqui</strong></span><br />Fahd Siddiqui is an engineer and an app developer; designing engineering apps for quick calculations during meetings and on the field.</p>
+<p><a href="http://www.fahdsiddiqui.com">www.fahdsiddiqui.com</a></p>
+<p><br /><em>The use of this app is for educational purposes only and should not be relied upon for legal contracts. This app</em><em>&nbsp;is protected under the relevant copyright laws.</em></p>
+
+
+
+    </font>
+    </body>
+    </html>
+    ]]>
+    </string>
+
+
+
+
+
+
+</resources>
+
