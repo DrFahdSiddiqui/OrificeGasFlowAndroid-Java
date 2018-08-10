@@ -1,6 +1,17 @@
 # OrificeGasFlow
+## What is it?
 This app computes the gas flow rate using the orifice plate energy equation. The app follows the standard procedure described in ISO 5167-2. The orifice discharge coefficient is calculated using the Reader-Harris/Gallagher (1998) equation.
 
+## Where to get it?
+[Google Play Store](https://play.google.com/store/apps/details?id=petrosimple.orificeflow)
+
+## Why?
+Because I once needed such a tool while on field :).
+[Blog](http://fahdsiddiquicom/orificegasflowandroid-java/)
+
+
+## How to use?
+[Youtube Video](https://youtu.be/wxOqhRE2JvY)
 This app requires the pipe diameter (D), orifice diameter (d), upstream pressure (P1), the differential pressure across the orifice (P1-P2), downstream temperature (T), gas specific gravity and gas isentropic expansion factor/heat capacity ratio (k=Cp/Cv). The user has the option of specifying the units for each, hence the values can have any mix of units.
 
 The tap location can be selected from the ISO 5167-2 specified: Flange Taps, Corner Taps, D and D/2 Taps and an option to specify manual tap locations. The Flange Taps standard measures the pressure and differential at 1inch intervals from the orifice plate on either side. The Corner Taps are located just upstream and downstream of the orifice plate. The D and D/2 Taps are located at a distance of pipe diameter on the upstream side and half pipe diameter distance on the downstream side of the orifice plate. Even though the user can manually specify these distances as well it is not recommended as it is not covered by the ISO 5167-2 standard. In general large deviations from the standard values will produce a larger uncertainty.
